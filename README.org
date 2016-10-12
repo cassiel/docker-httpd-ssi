@@ -1,7 +1,7 @@
 -*- mode: org; mode: visual-line; -*-
 #+STARTUP: indent
 
-* `docker-httpd-ssi`
+* =docker-httpd-ssi=
 
 Simple Docker build for SSI-enabled Apache (since I got sick of OS X/macOS breaking my configuration on every OS upgrade).
 
