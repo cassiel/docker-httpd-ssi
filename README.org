@@ -18,7 +18,7 @@ Build with:
 Run with:
 
 #+BEGIN_SRC shell-script
-  docker run -it --name cassiel/httpd-ssi -p 5000:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd-ssi
+  docker run -it --name httpd-ssi -p 5000:80 -v "$PWD":/usr/local/apache2/htdocs/ cassiel/httpd-ssi
 #+END_SRC
 
 (changing port, target directory etc. according to taste).
